@@ -66,7 +66,7 @@ export default function CountryProfile() {
                                 <div className="flex gap-1 max-xl:flex-col">
                                     <span className="font-semibold">Currencies:</span>
                                     {currentCountry.currencies ? (
-                                        currentCountry.currencies.map((cu) => cu.name)
+                                        currentCountry.currencies.map((cur) => cur.name)
                                     ) : (
                                         <p className="font-normal">No currency information available.</p>
                                     )}
